@@ -32,7 +32,7 @@ if(k=="True"):
         print("The host name of the ip is",socket.gethostbyaddr(ip)[0])
         sys.exit()
     except socket.herror:
-        print("NO host with that IP")
+        print("NO host with that IP adress")
         sys.exit()
 elif(k=="False"):
     name=sys.argv[1]
